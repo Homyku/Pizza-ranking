@@ -1,5 +1,5 @@
 body{
-    background-image: url("background.jpg");
+    background-image: url("./images/background.jpg");
 }
 
 h2{
@@ -32,7 +32,7 @@ h2{
  position: absolute;
  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
  background: rgb(40, 107, 40);
- background-image: url("nolio.jpg");
+ background-image: url("./images/nolio.jpg");
 }
 
 
@@ -42,7 +42,7 @@ h2{
     position: absolute;
     transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
     background: rgb(40, 107, 40);
-    background-image: url("nolio.jpg");
+    background-image: url("./images/nolio.jpg");
 }
 
 
@@ -52,7 +52,7 @@ h2{
  position: absolute;
  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
  background: rgb(40, 107, 40);
- background-image: url("coca.jpg");
+ background-image: url("./images/coca.jpg");
 }
 
     
@@ -62,7 +62,7 @@ h2{
     position: absolute;
     transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
     background: rgb(40, 107, 40);
-    background-image: url("tesone.jpeg");
+    background-image: url("./images/tesone.jpeg");
 }
 
 .card-image.stars {
@@ -71,7 +71,7 @@ h2{
     position: absolute;
     transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
     background: rgb(40, 107, 40);
-    background-image: url("stars.jpg");
+    background-image: url("./images/stars.jpg");
 }
 
 .card-image.papryczka {
@@ -80,7 +80,7 @@ h2{
     position: absolute;
     transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
     background: rgb(40, 107, 40);
-    background-image: url("papryczka.jpg");
+    background-image: url("./images/papryczka.jpg");
 }
    
    /*Description */
@@ -116,4 +116,4 @@ h2{
     transform: translateY(100%);
    }
    
-
+   
