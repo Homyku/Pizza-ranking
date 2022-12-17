@@ -1,0 +1,119 @@
+body{
+    background-image: url("background.jpg");
+}
+
+h2{
+    padding: 15px;
+    font-size: 40px;
+    color:antiquewhite;
+    text-align: center;
+    text-decoration: overline underline;
+    border-radius: 50px;
+    background: #be650c;
+    box-shadow: inset 20px -20px 60px #a2560a,
+            inset -20px 20px 60px #db740e;
+}
+
+.card {
+    height: 254px;
+    width: 190px;
+    display: inline-block;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius: 1em;
+    box-shadow: 0 0 20px 8px #8e3200;
+    ;
+}
+   
+    /*Image*/
+.card-image {
+ height: 100%;
+ width: 100%;
+ position: absolute;
+ transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+ background: rgb(40, 107, 40);
+ background-image: url("nolio.jpg");
+}
+
+
+.card-image.nolio {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background: rgb(40, 107, 40);
+    background-image: url("nolio.jpg");
+}
+
+
+.card-image.coca {
+ height: 100%;
+ width: 100%;
+ position: absolute;
+ transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+ background: rgb(40, 107, 40);
+ background-image: url("coca.jpg");
+}
+
+    
+.card-image.tesone {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background: rgb(40, 107, 40);
+    background-image: url("tesone.jpeg");
+}
+
+.card-image.stars {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background: rgb(40, 107, 40);
+    background-image: url("stars.jpg");
+}
+
+.card-image.papryczka {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background: rgb(40, 107, 40);
+    background-image: url("papryczka.jpg");
+}
+   
+   /*Description */
+   .card-description {
+    display: flex;
+    position: absolute;
+    gap: 1em;
+    flex-direction: column;
+    background-color: #f3d57a;
+    height: 70%;
+    bottom: 0;
+    border-radius: 1em 1em 0 0;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 1rem;
+   }
+   
+   /*Text*/
+   .text-title {
+    font-size: 1.4em;
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+   }
+   
+   .text-body {
+    font-size: 1em;
+    line-height: 150%;
+   }
+   
+   
+   /* Hover states */
+   
+   .card:hover .card-description {
+    transform: translateY(100%);
+   }
+   
+
