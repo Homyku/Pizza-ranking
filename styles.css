@@ -15,8 +15,8 @@ h2{
 }
 
 .card {
-    height: 254px;
-    width: 190px;
+    height: 244px;
+    width: 200px;
     display: inline-block;
     position: relative;
     transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -82,12 +82,29 @@ h2{
     background: rgb(40, 107, 40);
     background-image: url("./images/papryczka.jpg");
 }
+
+.card-image.sandro {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background: rgb(40, 107, 40);
+    background-image: url("./images/da\ sandro.jpg");
+}
+.card-image.pizzahut {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background: rgb(40, 107, 40);
+    background-image: url("./images/pizza\ hut.jpg");
+}
    
    /*Description */
    .card-description {
     display: flex;
     position: absolute;
-    gap: 1em;
+    /*gap: 1em;*/
     flex-direction: column;
     background-color: #f3d57a;
     height: 70%;
