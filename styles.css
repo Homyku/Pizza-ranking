@@ -94,6 +94,15 @@ h2{
     background: rgb(40, 107, 40);
     background-image: url("./images/da\ sandro.jpg");
 }
+
+.card-image.olio{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background: rgb(40, 107, 40);
+    background-image: url("./images/olio.jpg");
+}
 .card-image.pizzahut {
     height: 100%;
     width: 100%;
@@ -101,6 +110,15 @@ h2{
     transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
     background: rgb(40, 107, 40);
     background-image: url("./images/pizza\ hut.jpg");
+}
+
+.card-image.kreska {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background: rgb(40, 107, 40);
+  background-image: url("./images/kreska.jpg");
 }
    
    /*Description */
